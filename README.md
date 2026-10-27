@@ -68,14 +68,14 @@ lean/
 
 ## Citation
 
-Gurvir Singh, *Optimality of CGLMP Measurements for Maximally Entangled Qutrits*, preprint (2026).
+Gurvir Singh, *Optimality of CGLMP Measurements for Maximally Entangled Qutrits*, unpublished manuscript (2026).
 
 ```bibtex
-@misc{singh2026cglmpqutrits,
+@unpublished{singh2026cglmpqutrits,
   author = {Singh, Gurvir},
   title = {Optimality of {CGLMP} Measurements for Maximally Entangled Qutrits},
   year = {2026},
-  note = {Preprint}
+  note = {Unpublished manuscript}
 }
 ```
 
