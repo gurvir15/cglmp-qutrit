@@ -1,0 +1,9 @@
+.lake/
+*.olean
+*.ilean
+*.aux
+*.log
+!verification.log
+*.out
+*.synctex.gz
+.DS_Store

@@ -1,0 +1,85 @@
+STATUS: UNCONDITIONAL FIXED-STATE QUTRIT CGLMP GLOBAL OPTIMALITY
+Lean (version 4.24.0, x86_64-w64-windows-gnu, commit 797c613eb9b6d4ec95db23e3e00af9ac6657f24b, Release)
+Mathlib: v4.24.0
+Source: CGLMP3_GlobalOptimality.lean
+Source SHA-256: a0708fce89d57f6b5f6f790718aba8820cf7233c688732af3717b726377a1a6b
+Date: 2026-10-27
+
+The exact delivered standalone source was compiled locally.
+The final theorem includes both the universal upper bound and attainment.
+It has no analytic-certificate or angular-budget argument.
+Finite certificate checks use kernel computation, not native decision.
+
+'CGLMP3Concrete.equal_step_attainment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CGLMP3Physical.physical_cost_factorization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CGLMP3Physical.probability_normalized' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CGLMP3Trace.clock_shift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CGLMP3Trace.cost_trace_polynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CGLMP3Integration.physical_cost_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CGLMP3Integration.ell_conjugation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CGLMP3Integration.explicit_measurement_attainment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CGLMP3Integration.actual_measurement_attainment' depends on axioms: [propext, Classical.choice, Quot.sound]
+C:\Users\gurvi\Documents\Codex\2026-10-27\li\outputs\CGLMP3_GlobalOptimality.lean:444:19: warning: This simp argument is unused:
+  eval
+
+Hint: Omit it from the simp argument list.
+  simp [̵m̵e̵r̵g̵e̵,̵h̵e̵,̵e̵v̵a̵l̵]̵[̲m̲e̲r̲g̲e̲,̲ ̲h̲e̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'CGLMP3SOS.trace_cycleReduce' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CGLMP3SOS.eval_inverseWord' depends on axioms: [propext, Classical.choice, Quot.sound]
+C:\Users\gurvi\Documents\Codex\2026-10-27\li\outputs\CGLMP3_GlobalOptimality.lean:532:28: warning: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+C:\Users\gurvi\Documents\Codex\2026-10-27\li\outputs\CGLMP3_GlobalOptimality.lean:532:28: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+'CGLMP3SOS.coeffVal_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CGLMP3SOS.Q_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CGLMP3SOS.coefficient_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CGLMP3SOS.pairing_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+C:\Users\gurvi\Documents\Codex\2026-10-27\li\outputs\CGLMP3_GlobalOptimality.lean:808:39: warning: This simp argument is unused:
+  Complex.mul_im
+
+Hint: Omit it from the simp argument list.
+  simp [̵c̵o̵r̵r̵e̵l̵a̵t̵i̵o̵n̵,̵κ̵,̵γ̵,̵C̵o̵m̵p̵l̵e̵x̵.̵m̵u̵l̵_̵r̵e̵,̵C̵o̵m̵p̵l̵e̵x̵.̵m̵u̵l̵_̵i̵m̵]̵[̲c̲o̲r̲r̲e̲l̲a̲t̲i̲o̲n̲,̲ ̲κ̲,̲ ̲γ̲,̲ ̲C̲o̲m̲p̲l̲e̲x̲.̲m̲u̲l̲_̲r̲e̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'CGLMP3SOS.tracial_bell_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CGLMP3SOS.unitary_cubic_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+C:\Users\gurvi\Documents\Codex\2026-10-27\li\outputs\CGLMP3_GlobalOptimality.lean:848:35: warning: This simp argument is unused:
+  mul_one
+
+Hint: Omit it from the simp argument list.
+  simp only [̵p̵o̵w̵_̵s̵u̵c̵c̵,̵p̵o̵w̵_̵z̵e̵r̵o̵,̵m̵u̵l̵_̵o̵n̵e̵]̵[̲p̲o̲w̲_̲s̲u̲c̲c̲,̲ ̲p̲o̲w̲_̲z̲e̲r̲o̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+C:\Users\gurvi\Documents\Codex\2026-10-27\li\outputs\CGLMP3_GlobalOptimality.lean:876:28: warning: This simp argument is unused:
+  Complex.div_re
+
+Hint: Omit it from the simp argument list.
+  simp [̵κ̵,̵t̵r̵,̵C̵o̵m̵p̵l̵e̵x̵.̵m̵u̵l̵_̵r̵e̵,̵C̵o̵m̵p̵l̵e̵x̵.̵d̵i̵v̵_̵r̵e̵]̵[̲κ̲,̲ ̲t̲r̲,̲ ̲C̲o̲m̲p̲l̲e̲x̲.̲m̲u̲l̲_̲r̲e̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+C:\Users\gurvi\Documents\Codex\2026-10-27\li\outputs\CGLMP3_GlobalOptimality.lean:896:46: warning: This simp argument is unused:
+  Matrix.mul_smul
+
+Hint: Omit it from the simp argument list.
+  simp [̵M̵a̵t̵r̵i̵x̵.̵m̵u̵l̵_̵s̵m̵u̵l̵,̵M̵a̵t̵r̵i̵x̵.̵s̵m̵u̵l̵_̵m̵u̵l̵]̵[̲M̲a̲t̲r̲i̲x̲.̲s̲m̲u̲l̲_̲m̲u̲l̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+C:\Users\gurvi\Documents\Codex\2026-10-27\li\outputs\CGLMP3_GlobalOptimality.lean:896:62: warning: This simp argument is unused:
+  Matrix.smul_mul
+
+Hint: Omit it from the simp argument list.
+  simp [Matrix.mul_smul,̵M̵a̵t̵r̵i̵x̵.̵s̵m̵u̵l̵_̵m̵u̵l̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'CGLMP3SOS.physical_correlation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CGLMP3SOS.actual_global_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CGLMP3SOS.full_global_optimality' depends on axioms: [propext, Classical.choice, Quot.sound]
+CGLMP3SOS.full_global_optimality :
+  (∀ (A₀ A₁ B₀ B₁ : ↥U3), CGLMP3Integration.actualBellValue ↑A₀ ↑A₁ ↑B₀ ↑B₁ ≤ 4 / 3 + 8 / (3 * √3)) ∧
+    ∃ A₀ A₁ B₀ B₁, CGLMP3Integration.actualBellValue ↑A₀ ↑A₁ ↑B₀ ↑B₁ = 4 / 3 + 8 / (3 * √3)
+
+Compiler exit code: 0
